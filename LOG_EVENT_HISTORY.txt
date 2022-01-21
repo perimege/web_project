@@ -1,0 +1,2 @@
+LOG EVENT HISTORY
+user1 successfully registered to system with user1@gmail.com
