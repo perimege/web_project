@@ -1,0 +1,60 @@
+Project Name:HOLIDAY REZERVATION SYSTEM
+How to setup this project?
+
+Step 1st:Open PHPMyAdmin http://localhost/phpmyadmin
+
+Step 2nd:Create database as named "tour_db"
+
+Step 3rd:Import "tour_db.sql" file given insede the zip package in SQL file folder
+
+Step 4th:Run the script http://localhost/OnlineTour/
+
+Project Description and Details
+
+	User Types:There are 2 types of users in "Holiday Rezervation System" project,customer and admin.
+	Register Operation:
+		*The customer can register by entering;
+			-name
+			-e-mail(E-mail is unique for every user)
+			-password
+			-profile photo(optionally uploading a profile photo to the system)
+		*E-mail is unique for every user
+	Customer Login Operation/User Login Page:
+		*The customer can login by entering;
+			-Email
+			-Password
+	Admin Login Operation/Admin Login Page
+		*Admin can login by entering;
+			-Admin Id
+			-Password
+	Customer Operations:
+		*If the customer is registered in the system, he/she can login to the system.
+		*If the customer is not registered in the system, he/she can register to the system and after 
+		registration operation customer can login to the system.
+		*If he/she wants to change her/his password after logging in to the system, he/she can change
+		her password from the "Change Password" operation.
+		 *Customer can book a holiday with "Book Holiday Package" operation after logging in to the system.
+		*Customer can see the revervations they have made and can cancel these reservation if they wish.
+		*Customer also delete his/her old reservations of he/she does not want to see them.
+		*Customer log out of the system with "Logout" operation.
+	Admin Operation:
+		*Admin can login to the system.
+		*If admin wants to change her/his password after logging in to the system, admin can change
+		her/his password from the "Change Password" operation.
+		*Admin can view customer's holiday orders and approve or delete these requests as desired.("Orders" operation)
+		*Admin can add holiday packages to the system and optionally delete existing holiday packages from the system.("Manage Holiday Packages" operation)
+		*Admin log out of the system with "Logout" operation.
+	Database Defined User/Holiday Information:
+		For Admin:
+			-Admin Id:admin
+			-Password:admin1
+		For User:
+			-E-mail:user1@gmail.com
+			-Password:user1
+		For Holiday
+			-2 holiday packages(holiday1,holiday2) have already been defined in the database for the customer to book
+		
+			
+
+	
+	
