@@ -31,7 +31,7 @@ elseif($p1!=$p2)
 	}
 	else
 	{
-		mysqli_query($connection_db, "UPDATE admin SET password='$p2' WHERE aid='$aid'");
+		mysqli_query($connection_db, "UPDATE customers SET password='$p2' WHERE email='$email'");
 		$info="Successfully Changed your Password";
 		$log_message=$name." "."succesfully changed him/her password.";
 		write_log($log_message);
